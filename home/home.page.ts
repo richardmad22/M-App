@@ -154,6 +154,7 @@ export class HomePage {
     maximumAge: 0
   };
   
+  // The geolocation part that is failing s
   function success(pos) {
     const crd = pos.coords;
   
